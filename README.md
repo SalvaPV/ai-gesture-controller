@@ -10,7 +10,7 @@ The system captures video input and processes frames to detect hand landmarks. T
 <p align="center">
   <img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" alt="Hand Landmarks Diagram" width="600">
   <br>
-  <em>Visualización de los 21 puntos de referencia detectados por MediaPipe. Tu código usa los puntos 4 (Pulgar) y 8 (Índice).</em>
+  <em>Visualization of the 21 hand landmarks detected by MediaPipe. The system utilizes points 4 (Thumb Tip) and 8 (Index Finger Tip).</em>
 </p>
 1.  **Landmark Detection:** Identifies coordinates for the Thumb Tip (ID 4) and Index Finger Tip (ID 8).
 2.  **Geometry:** Calculates the Euclidean distance between these two points.
