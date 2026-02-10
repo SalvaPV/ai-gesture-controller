@@ -7,7 +7,11 @@ The core logic measures the Euclidean distance between the thumb tip and the ind
 
 ## Technical Implementation
 The system captures video input and processes frames to detect hand landmarks. The volume control mechanic works as follows:
-
+<p align="center">
+  <img src="https://developers.google.com/static/mediapipe/images/solutions/hand-landmarks.png" alt="Hand Landmarks Diagram" width="600">
+  <br>
+  <em>Visualización de los 21 puntos de referencia detectados por MediaPipe. Tu código usa los puntos 4 (Pulgar) y 8 (Índice).</em>
+</p>
 1.  **Landmark Detection:** Identifies coordinates for the Thumb Tip (ID 4) and Index Finger Tip (ID 8).
 2.  **Geometry:** Calculates the Euclidean distance between these two points.
 3.  **Interpolation:** Maps the distance range (measured in pixels) to a volume percentage (0-100%) using linear interpolation.
